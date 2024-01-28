@@ -1,4 +1,4 @@
-import Logo from "./Logo"
+import LogoSen from "./LogoSen";
 const Footer = () => {
     return (
         <div className="container my-3">
@@ -21,7 +21,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="col-md-2 m-auto">
-                    <Logo tamano={70} />
+                    <LogoSen tamano={40} />
                 </div>
             </div>
         </div>

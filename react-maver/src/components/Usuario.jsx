@@ -6,6 +6,6 @@ const Usuario = () => {
             <img src={Icon} alt="icono-ususario" width={20} /> 
         </button>
     )
-}
+}  
 
 export default Usuario;

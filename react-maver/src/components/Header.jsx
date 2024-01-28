@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div className="container-fluid my-4">
             <div className="row ">
-                <div className="col-md-1 m-auto">
+                <div className="col-md-2 m-auto">
                     <Logo tamano={120} />
                 </div>
                 <div className="col-md-6 d-flex justify-content-end">
