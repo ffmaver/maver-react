@@ -1,0 +1,23 @@
+[
+    {"id":1, "nombre": "Remera Over Feel", "img": "", "descripcion": "Remera Over Size con estampa en serigrafia", "precio": 10000, "categoria": "remeras", "genero": "unisex"},
+    {"id":2, "nombre": "Remera Over Eminem", "img": "", "descripcion": "Remera Over Size con estampa en serigrafia", "precio": 10000, "categoria": "remeras", "genero": "unisex"},
+    {"id":3, "nombre": "Remera Over Indian", "img": "", "descripcion": "Remera Over Size con estampa en serigrafia", "precio": 10000, "categoria": "remeras", "genero": "unisex"},
+    {"id":4, "nombre": "Remera Over Hands", "img": "", "descripcion": "Remera Over Size con estampa en serigrafia", "precio": 10000, "categoria": "remeras", "genero": "unisex"},
+    {"id":5, "nombre": "Remera Over Monkey", "img": "", "descripcion": "Remera Over Size con estampa en serigrafia", "precio": 10000, "categoria": "remeras", "genero": "unisex"},
+    {"id":6, "nombre": "Buzo Feel", "img": "", "descripcion": "Buzo de algodon estampado", "precio": 20000, "categoria": "buzos", "genero": "unisex"},
+    {"id":7, "nombre": "Buzo Eminem", "img": "", "descripcion": "Buzo de algodon estampado", "precio": 20000, "categoria": "buzos", "genero": "unisex"},
+    {"id":8, "nombre": "Buzo Indian", "img": "", "descripcion": "Buzo de algodon estampado", "precio": 20000, "categoria": "buzos", "genero": "unisex"},
+    {"id":9, "nombre": "Buzo Monkey", "img": "", "descripcion": "Buzo de algodon estampado", "precio": 20000, "categoria": "buzos", "genero": "unisex"},
+    {"id":10, "nombre": "Buzo Liso", "img": "", "descripcion": "Buzo de algodon estampado", "precio": 20000, "categoria": "buzos", "genero": "unisex"},
+    {"id":11, "nombre": "Remera Over Feel", "descripcion": "Remera con detalles minimos de fabrica", "img": "", "precio": 7000, "categoria": "outlet", "genero": "unisex"},
+    {"id":12, "nombre": "Remera Over Smile", "descripcion": "Remera con detalles minimos de fabrica", "img": "", "precio": 7000, "categoria": "outlet", "genero": "unisex"},
+    {"id":13, "nombre": "Remera Over Arcsen", "descripcion": "Remera con detalles minimos de fabrica", "img": "", "precio": 7000, "categoria": "outlet", "genero": "unisex"},
+    {"id":14, "nombre": "Remera Over Numbers", "descripcion": "Remera con detalles minimos de fabrica", "img": "", "precio": 7000, "categoria": "outlet", "genero": "unisex"},
+    {"id":15, "nombre": "Remera Over Monkey", "descripcion": "Remera con detalles minimos de fabrica", "img": "", "precio": 7000, "categoria": "outlet", "genero": "unisex"},
+    {"id":16, "nombre": "Gorra Feel", "img": "", "descripcion": "Gorra de tela", "precio": 11000, "categoria": "new in", "genero": "unisex"},
+    {"id":17, "nombre": "Gorra Arcssen", "img": "", "descripcion": "Gorra de tela", "precio": 11000, "categoria": "new in", "genero": "unisex"},
+    {"id":18, "nombre": "Gorra Smile", "img": "", "descripcion": "Gorra de tela", "precio": 11000, "categoria": "new in", "genero": "unisex"},
+    {"id":19, "nombre": "Gorra Vint", "img": "", "descripcion": "Gorra de tela", "precio": 11000, "categoria": "new in", "genero": "unisex"},
+    {"id":20, "nombre": "Gorra Good", "img": "", "descripcion": "Gorra de tela", "precio": 11000, "categoria": "new in", "genero": "unisex"}
+    
+]
