@@ -8,6 +8,9 @@ import Remeras from "./components/Remeras";
 import Buzos from "./components/Buzos";
 import Outlet from "./components/Outlet";
 import "./main.css";
+import Carousel from "./components/Carousel";
+import ItemDetailContainer from "./components/ItemDetailConteiner";
+import ItemListContainer from "./components/ItemListContainer";
 
 
 const App = () => {
@@ -16,11 +19,10 @@ const App = () => {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Inicio/>}/> 
-          <Route path="/newin" element={<NewIn/>}/> 
-          <Route path="/remeras" element={<Remeras/>}/> 
-          <Route path="/buzos" element={<Buzos/>}/> 
-          <Route path="/outlet" element={<Outlet/>}/> 
+          <Route path="/" element={<Carousel/>}/>
+          <Route path="/item/:id" element={<ItemDetailContainer />}/>
+          <Route path="/productos" element={<ItemListContainer/>} />
+          <Route path="/productos/:categoria" element={<ItemListContainer/>} />
         </Routes>
         <hr />
         <PreFooter />

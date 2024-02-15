@@ -1,9 +1,11 @@
 import Item from "./Item";
 
-const ItemList = ({ productos }) => {
-
+const ItemList = ({ productos, titulo }) => {
+    const tituloEnMayuscula = titulo.toUpperCase();
     return (
         <div className="conainer"> 
+        <hr />
+        <h3 className="main-title">{tituloEnMayuscula}</h3>
             <div className="productos">
             {productos.length > 0 &&
                 productos.map((producto) => {
