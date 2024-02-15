@@ -3,23 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .container {
     max-width: 1140px;
     padding-inline: 1.5rem;
     margin: 0 auto;
 }
+
 .productos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     padding-block: 2rem;
 }
+
 .producto {
     display: flex;
     flex-direction: column;
     border-radius: 1rem;
     overflow: hidden;
 }
+
+.producto>div {
+    padding: 1rem;
+    background-color: var(--clr-main-light);
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.producto>img {
+    width: 100%;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+}
+
 .producto .card-body .ver-mas {
     text-decoration: none;
     background-color: var(--clr-main);
@@ -40,3 +58,49 @@
 }
 
 
+
+.producto-detalle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalle-info{
+    padding: 100px;
+}
+
+.precio {
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+.item-count {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.item-count button, .agregar-al-carrito{
+    background-color: rgb(43, 41, 41);
+    border: 0;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+    border: 2px solid var(--clr-main);
+    transition: .2s;
+}
+
+.agregar-al-carrito{
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+}
