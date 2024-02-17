@@ -4,7 +4,7 @@ const FooterRedes = () => {
     return (
         <ul className= "nav flex-column">
             <li className="nav-item">
-                <a className="nav-link text-dark fw-bold fs-6" href="#">ENCONTRANOS EN</a>
+                <p className="nav-link text-dark fw-bold fs-6">ENCONTRANOS EN</p>
             </li>
             <li className="nav-item">
                 <Redes/>

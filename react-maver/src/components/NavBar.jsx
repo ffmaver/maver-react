@@ -1,7 +1,9 @@
-import {Link} from "react-router-dom"
-const NavBar = ({type}) => {
+import { Link } from "react-router-dom"
+
+import CarritoWidget from "./CarritoWidget";
+const NavBar = ({ type, showCarritoWidget }) => {
     return (
-        <ul className= {type}>
+        <ul className={type}>
             <li className="nav-item">
                 <Link className="nav-link text-dark fs-6" to="/">INICIO</Link>
             </li>
@@ -20,6 +22,11 @@ const NavBar = ({type}) => {
             <li className="nav-item">
                 <Link className="nav-link text-dark fs-6" to="/productos/outlet">OUTLET</Link>
             </li>
+            {showCarritoWidget && (
+                <li>
+                    <CarritoWidget />
+                </li>
+            )}
         </ul>
     )
 }

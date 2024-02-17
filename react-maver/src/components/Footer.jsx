@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import LogoSen from "./LogoSen";
 const Footer = () => {
     return (
@@ -7,16 +8,13 @@ const Footer = () => {
                 <div className="col-md-10">
                     <ul className="nav">
                         <li className="nav-item">
-                            <a className="nav-link text-secondary fs-6" href="#">Política de Privacidad</a>
+                            <Link className="nav-link text-secondary fs-6" to="/">Política de Privacidad</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-secondary fs-6" href="#">Defensa del Consumidor</a>
+                            <Link className="nav-link text-secondary fs-6" to="/">Protección de datos personales</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-secondary fs-6" href="#">Protección de datos personales</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link text-secondary fs-6" href="#">Contacto</a>
+                            <Link className="nav-link text-secondary fs-6" to="/">Contacto</Link>
                         </li>
                     </ul>
                 </div>

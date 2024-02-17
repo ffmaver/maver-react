@@ -1,14 +1,16 @@
+import { Link } from "react-router-dom";
+
 const FooterContacto = () => {
     return (
         <ul className= "nav flex-column">
             <li className="nav-item">
-                <a className="nav-link text-dark fw-bold fs-6" href="#">CONTACTANOS</a>
+                <p className="nav-link text-dark fw-bold fs-6" >CONTACTANOS</p>
             </li>
             <li className="nav-item">
-                <a className="nav-link text-muted fs-6" href="#">ARCSSEN@GMAIL.COM</a>
+                <Link className="nav-link text-muted fs-6" to="https://mail.google.com/">ARCSSEN@GMAIL.COM</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link text-muted fs-6" href="#">CALLE CUALQUIERA 123, BUENOS AIRES</a>
+                <Link className="nav-link text-muted fs-6" to="https://www.google.com.ar/maps">CALLE CUALQUIERA 123, BUENOS AIRES</Link>
             </li>
         </ul>
     )

@@ -14,7 +14,7 @@ const PreFooter = () => {
                 <Logo tamano={100} /> 
               </div>
               <div className="col">
-                    <NavBar type={"nav flex-column"}/>
+                    <NavBar type={"nav flex-column"} showCarritoWidget={false}/>
               </div>
               <div className="col">
                 <FooterContacto/>
