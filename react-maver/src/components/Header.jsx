@@ -5,10 +5,10 @@ const Header = () => {
     return (
         <div className="container-fluid my-4">
             <div className="row ">
-                <div className="col-md-6 m-auto">
+                <div className="col-md-3 m-auto">
                     <Logo tamano={120} />
                 </div>
-                <div className="col-md-6 d-flex justify-content-end">
+                <div className="col-md-8 d-flex justify-content-end">
                     <NavBar type={"nav"} showCarritoWidget={true} />
                 </div>
             </div>

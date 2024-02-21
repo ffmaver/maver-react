@@ -22,6 +22,9 @@ const NavBar = ({ type, showCarritoWidget }) => {
             <li className="nav-item">
                 <Link className="nav-link text-dark fs-6" to="/productos/outlet">OUTLET</Link>
             </li>
+            <li className="nav-item">
+                <Link className="nav-link text-dark fs-6" to="/contacto">CONTACTO</Link>
+            </li>
             {showCarritoWidget && (
                 <li>
                     <CarritoWidget />
